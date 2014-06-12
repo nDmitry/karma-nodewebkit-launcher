@@ -1,15 +1,16 @@
 {
   "name": "karma-nodewebkit-launcher",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "A Karma plugin. Launcher for node-webkit.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/intelligentgolf/karma-nodewebkit-launcher.git"
   },
+  "engines": {
+    "node": ">=0.11.13"
+  },
+  "engineStrict": true,
   "keywords": [
     "karma-plugin",
     "karma-launcher",
@@ -23,7 +24,7 @@
     "ncp": "~0.5.0",
     "async": "~0.2.10",
     "merge": "~1.1.2",
-    "nodewebkit": "^0.8.5"
+    "nodewebkit": "^0.10.1"
   },
   "peerDependencies": {
     "karma": ">=0.9"
