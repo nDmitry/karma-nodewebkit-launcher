@@ -25,7 +25,7 @@
     "merge": "~1.1.2"
   },
   "peerDependencies": {
-    "karma": ">=0.9"
+    "karma": ">=0.12",
     "nodewebkit": "^0.10.2"
   },
   "license": "MIT",
