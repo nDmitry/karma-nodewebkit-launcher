@@ -8,9 +8,8 @@
     "url": "git://github.com/intelligentgolf/karma-nodewebkit-launcher.git"
   },
   "engines": {
-    "node": ">=0.11.13"
+    "node": ">=0.10"
   },
-  "engineStrict": true,
   "keywords": [
     "karma-plugin",
     "karma-launcher",
