@@ -26,7 +26,7 @@
   },
   "peerDependencies": {
     "karma": ">=0.12",
-    "nodewebkit": "^0.10.2"
+    "nodewebkit": ">=0.10"
   },
   "license": "MIT",
   "devDependencies": {
